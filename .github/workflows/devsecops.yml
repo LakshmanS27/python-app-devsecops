@@ -23,7 +23,7 @@ jobs:
 
       # 3. Install dependencies
       - name: Install dependencies
-      run: |
+        run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           pip install safety pylint pytest
